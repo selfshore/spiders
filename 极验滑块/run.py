@@ -15,13 +15,16 @@ def get_html():
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Ch'
                              'rome/83.0.4103.56 Safari/537.36 Edg/83.0.478.33',
                }
-    url = 'https://passport.bilibili.com/web/captcha/combine?plat=6'
-    r = requests.get(url,headers=headers,)
+    url = 'https://www.geetest.com/demo/gt/register-slide-official'
+    params = {
+        't': int(time.time() * 1000)
+    }
+    r = requests.get(url, headers=headers, params=params)
     with open('mix.js', 'r', encoding='utf-8')as f:
         content = f.read()
     ctx = execjs.compile(content)
-    gt = json.loads(r.text)["data"]["result"]["gt"]
-    challenge = json.loads(r.text)["data"]["result"]["challenge"]
+    gt = json.loads(r.text)["gt"]
+    challenge = json.loads(r.text)["challenge"]
     res = ctx.call('first_w', gt, challenge)
     headers = {
         'Host': 'api.geetest.com',
