@@ -13,7 +13,7 @@ def encodeto16(content):
 
 def img_recv(bgIS):
     """
-    :param bgIS:背景图片返回的bgImageSplitSequence值
+    :param bgIS:
     :return:
     """
     img = Image.open('2.jpeg')
