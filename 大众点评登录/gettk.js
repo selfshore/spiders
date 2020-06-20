@@ -1,4 +1,4 @@
-function get(kT,url) {
+function get(kT,url, mT, aT) {
   var pp;
   (function e(dY, dQ, iH) {
     function fx(cq, jF) {
@@ -4416,12 +4416,12 @@ function get(kT,url) {
           ver: "1.0.6",
           ts: new Date().getTime(),
           cts: new Date().getTime(),
-          brVD: [1920,937],
+          brVD: [1920,1050],
           brR: [[1920,1080],[1920,1050],24,24],
           bI: ['http://www.dianping.com/',"https://account.dianping.com/login?redir=http://www.dianping.com"],
-          mT: ["171,244","172,244","173,244","174,244","175,244","177,244","178,244","180,244","182,244","184,244","185,244","187,244","189,244","191,244","193,244","195,244","197,244","198,244","200,244","201,244","202,244","204,244","205,244","206,244","207,244","208,244","209,244","210,244","212,244","213,244"],
+          mT: mT,
           kT: kT,
-          aT: ["169,244,BUTTON", "250,44,A", "134,331,SPAN"],
+          aT: aT,
           tT: [],
           aM: ""
         };
