@@ -59,6 +59,6 @@ def get_cookie(user, pwd):
 
 
 if __name__ == '__main__':
-    get_cookie('17872855620', 'a892468337')
+    get_cookie('', '')
 
 
