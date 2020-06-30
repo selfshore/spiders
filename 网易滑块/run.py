@@ -74,7 +74,7 @@ def main():
         "callback": "__JSONP_hhjwbon_4"
     }
     r = requests.get('https://c.dun.163.com/api/v2/check', headers=headers, params=get_data)
-    print(distance, r.text)
+    print(r.text)
 
 
 if __name__ == '__main__':
