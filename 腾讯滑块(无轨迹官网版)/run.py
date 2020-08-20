@@ -120,22 +120,22 @@ def main():
         "12": "u",
         "13": "Win32",
         "14": "0",
-        "15": "9dcc2da81f0e59e03185ad3db82acb70", #2
-        "16": "5e7610e44033141ccbae047dad72c820",#4
-        "17": "a1835c959081afa32e01bd14786db9b0",#3
+        "15": "9dcc2da81f0e59e03185ad3db82acb70",  # 2
+        "16": "5e7610e44033141ccbae047dad72c820",  # 4
+        "17": "a1835c959081afa32e01bd14786db9b0",  # 3
         "18": "0",
-        "19": "9c39fe2ad81644d19ccb1c7b65809bb0", #9
+        "19": "9c39fe2ad81644d19ccb1c7b65809bb0",  # 9
         "20": "10501920241080192024",
         "21": "1;",
         "22": "1;1;1;1;1;1;1;0;1;object0UTF-8",
         "23": "0",
         "24": "0;0",
-        "25": "f5bfdb391ff0c6cad8aa99c6d094afe0", #1
+        "25": "f5bfdb391ff0c6cad8aa99c6d094afe0",  # 1
         "26": "48000_2_1_0_2_explicit_speakers",
-        "27": "d7959e801195e05311be04517d04a520",#2
+        "27": "d7959e801195e05311be04517d04a520",  # 2
         "28": "ANGLE(Intel(R)HDGraphics630Direct3D11vs_5_0ps_5_0)",
-        "29": "953e8506ed87372296cbc240468dd280", #8
-        "30": "a23a38527a38dcea2f63d5d078443f70",#8
+        "29": "953e8506ed87372296cbc240468dd280",  # 8
+        "30": "a23a38527a38dcea2f63d5d078443f70",  # 8
         "31": "0",
         "32": "0",
         "33": "0",
@@ -156,7 +156,7 @@ def main():
         "48": "0",
         "49": "0",
         "50": "0",
-        "fesig": "16676171007707817841", #0
+        "fesig": "16676171007707817841",  # 0
         "ut": "1060",
         "appid": "0",
         "refer": "https://t.captcha.qq.com/cap_union_new_show",
@@ -204,7 +204,7 @@ def main():
         "prehandleLoadTime": "35",
         "createIframeStart": tm,
         "cdata": "0",
-        "ans": str(distance[0]-3) + ',' + str(distance[1]-1)+';',
+        "ans": str(distance[0] - 3) + ',' + str(distance[1] - 1) + ';',
         "vsig": "",
         "websig": "",
         "subcapclass": "",

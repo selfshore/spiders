@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="798ecad3-5e40-4f84-8cb6-acf1c45b358e" name="Default Changelist" comment="" />
+    <list default="true" id="798ecad3-5e40-4f84-8cb6-acf1c45b358e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/baidu$ce.coverage" NAME="ce Coverage Results" MODIFIED="1588260000178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/baidu$traceid.coverage" NAME="traceid Coverage Results" MODIFIED="1587714818327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/baidu$spider.coverage" NAME="spider Coverage Results" MODIFIED="1588301177792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/baidu$spider.coverage" NAME="spider Coverage Results" MODIFIED="1589818252326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/baidu$Callbackparam.coverage" NAME="Callbackparam Coverage Results" MODIFIED="1587639052944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/baidu$callback___1_.coverage" NAME="callback_ (1) Coverage Results" MODIFIED="1587641009955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/baidu$gid.coverage" NAME="gid Coverage Results" MODIFIED="1587974359663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -28,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="144" selection-start-line="144" selection-end-line="144" />
+            <state relative-caret-position="272">
+              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="38" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -39,20 +42,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part_params.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/callback_.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gid.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -85,6 +74,9 @@
       <replace>False</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -103,17 +95,18 @@
         <option value="$PROJECT_DIR$/baidu_login.py" />
         <option value="$PROJECT_DIR$/fs.js" />
         <option value="$PROJECT_DIR$/ce.py" />
-        <option value="$PROJECT_DIR$/spider.py" />
         <option value="$PROJECT_DIR$/callback_.py" />
+        <option value="$PROJECT_DIR$/spider.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="430" />
     <option name="y" value="107" />
     <option name="width" value="1478" />
     <option name="height" value="905" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -135,7 +128,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled(1)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -293,22 +286,31 @@
       <updated>1587634214215</updated>
       <workItem from="1587634215580" duration="114407000" />
       <workItem from="1588162332793" duration="17642000" />
+      <workItem from="1588313475651" duration="93000" />
+      <workItem from="1588612494102" duration="190000" />
+      <workItem from="1589449621931" duration="283000" />
+      <workItem from="1589818075481" duration="218000" />
+      <workItem from="1590059156706" duration="23000" />
+      <workItem from="1590059916079" duration="13000" />
+      <workItem from="1590060141481" duration="52000" />
+      <workItem from="1590123008041" duration="35000" />
+      <workItem from="1590123158060" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132049000" />
+    <option name="totallyTimeSpent" value="132972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="430" y="107" width="1478" height="905" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1629055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3620309" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52080536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4362416" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,7 +320,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3289183" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -331,132 +333,46 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aa/139_10.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_20.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_21.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_31.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_41.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_80.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_90.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_91.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_101.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_06.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_05.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_08.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_010.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_00.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_016.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_17.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_18.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_19.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_110.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_111.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_113.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_114.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_115.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_116.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_2cf991d9-0424-4bd9-b551-da664072bcb9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_18.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_19.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_20.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_25.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/139_9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aa/139_21.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_31.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_41.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_80.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_90.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_91.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_101.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_06.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_05.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_08.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_010.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_01.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_00.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_02.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_03.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_016.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_17.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_18.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_19.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_110.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_111.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_113.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_114.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_115.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_116.png" />
+    <entry file="file://$PROJECT_DIR$/aa/139_2cf991d9-0424-4bd9-b551-da664072bcb9.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_0.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_7.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_5.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_2.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_3.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_4.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_18.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_19.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_20.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_25.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_8.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/139_9.jpg" />
+    <entry file="file://$PROJECT_DIR$/aa/1.jpg" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/495068615/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-304">
@@ -469,44 +385,45 @@
         <state relative-caret-position="-275" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pic.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ce.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pic.jpg" />
+    <entry file="file://$PROJECT_DIR$/ce.jpg" />
+    <entry file="file://$PROJECT_DIR$/ce.py" />
     <entry file="file://$PROJECT_DIR$/gid.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part_params.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/callback_.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="646">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/anaconda/Lib/site-packages/Crypto/Cipher/PKCS1_v1_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/anaconda/Lib/site-packages/Crypto/PublicKey/RSA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1703">
+          <caret line="681" column="44" lean-forward="true" selection-start-line="681" selection-start-column="44" selection-end-line="681" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        <state relative-caret-position="272">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="38" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part_params.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

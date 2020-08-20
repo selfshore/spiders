@@ -25,4 +25,3 @@ jsl_cookie = re.findall('=(.*?);', jsl_cookie)[0]
 cookie.update({"__jsl_clearance": jsl_cookie})
 r = requests.get('http://www.gsxt.gov.cn/index.html', headers=headers, cookies=cookie)
 print(r.text)
-

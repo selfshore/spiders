@@ -33,10 +33,10 @@ def get_html():
     }
     data = {
         'gt': gt,
-        'callback':'geetest_' + str(int(time.time() * 1000))
+        'callback': 'geetest_' + str(int(time.time() * 1000))
     }
     session = requests.session()
-    r = session.get('https://api.geetest.com/gettype.php',headers=headers, params=data,)
+    r = session.get('https://api.geetest.com/gettype.php', headers=headers, params=data, )
     data = {
         'gt': gt,
         'challenge': challenge,
@@ -45,10 +45,10 @@ def get_html():
         'w': res,
         'callback': 'geetest_' + str(int(time.time() * 1000))
     }
-    r = session.get('https://api.geetest.com/get.php',params=data, headers=headers,)
-    ret_data = re.findall('.*?({.*?})\)',r.text)[0]
+    r = session.get('https://api.geetest.com/get.php', params=data, headers=headers, )
+    ret_data = re.findall('.*?({.*?})\)', r.text)[0]
     ret_data = json.loads(ret_data)
-    sec_w = ctx.call('ajaxphp',gt,challenge,ret_data["data"]["c"],ret_data["data"]["s"])
+    sec_w = ctx.call('ajaxphp', gt, challenge, ret_data["data"]["c"], ret_data["data"]["s"])
     data = {
         'gt': gt,
         'challenge': challenge,
@@ -58,35 +58,35 @@ def get_html():
         'callback': 'geetest_' + str(int(time.time() * 1000))
     }
     r = session.get('https://api.geetest.com/ajax.php', params=data, headers=headers, )
-    data = {"is_next":"true",
-            "type":"slide3",
-            "gt":gt,
-            "challenge":challenge,
-            "lang":"zh-cn",
-            "https":"false",
-            "protocol":"https://",
-            "offline":"false",
-            "product":"embed",
-            "api_server":"api.geetest.com",
-            "isPC":"true",
-            "area":"#geetest-wrap",
-            "width":"100%",
-            "callback":"geetest_1590163487388"
+    data = {"is_next": "true",
+            "type": "slide3",
+            "gt": gt,
+            "challenge": challenge,
+            "lang": "zh-cn",
+            "https": "false",
+            "protocol": "https://",
+            "offline": "false",
+            "product": "embed",
+            "api_server": "api.geetest.com",
+            "isPC": "true",
+            "area": "#geetest-wrap",
+            "width": "100%",
+            "callback": "geetest_1590163487388"
             }
-    r = session.get('https://api.geetest.com/get.php', params=data,headers=headers,)
+    r = session.get('https://api.geetest.com/get.php', params=data, headers=headers, )
     ret_data = re.findall('.*?({.*?})\)', r.text)[0]
     ret_data = json.loads(ret_data)
-    request.urlretrieve('https://static.geetest.com/' + ret_data["bg"],'gap.webp')
-    request.urlretrieve('https://static.geetest.com/' + ret_data["fullbg"],'full.webp')
+    request.urlretrieve('https://static.geetest.com/' + ret_data["bg"], 'gap.webp')
+    request.urlretrieve('https://static.geetest.com/' + ret_data["fullbg"], 'full.webp')
     img_recover()
     distance = get_distance() - 5
     arr = track.choice_track(distance)
     devarr = []
     t = arr[-1][0]
     n = arr[-1][2]
-    for i in range(len(arr)-1):
-        devarr.append([arr[i+1][0]-arr[i][0],arr[i+1][1]-arr[i][1],arr[i+1][2]-arr[i][2]])
-    three_w = ctx.call('D',arr,devarr,t,n,ret_data["c"],ret_data["s"],gt,ret_data["challenge"])
+    for i in range(len(arr) - 1):
+        devarr.append([arr[i + 1][0] - arr[i][0], arr[i + 1][1] - arr[i][1], arr[i + 1][2] - arr[i][2]])
+    three_w = ctx.call('D', arr, devarr, t, n, ret_data["c"], ret_data["s"], gt, ret_data["challenge"])
     data = {
         'gt': gt,
         'challenge': ret_data["challenge"],

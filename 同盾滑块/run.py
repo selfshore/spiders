@@ -8,21 +8,22 @@ from crack import get_distance
 from recover import img_recv
 from track import get_track
 
+
 def main():
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KtmL, like Gecko) Chrome/81.0.4044.138 Safari/537.36'
     }
-    #获取id值部分
+    # 获取id值部分
     with open('id.js', 'r', encoding='utf-8')as f:
         content = f.read()
     ctx = execjs.compile(content)
     url = ctx.call('pp')
-    r = requests.get(url,headers=headers)
+    r = requests.get(url, headers=headers)
     id_val = r.text.split(':')[1].split('}')[0]
 
-    #获取验证码图片部分
+    # 获取验证码图片部分
     tokens = id_val.split('|')[1]
-    arg_list = ctx.call('pp',tokens)
+    arg_list = ctx.call('pp', tokens)
     with open('imgs.js', 'r', encoding='utf-8')as f:
         content = f.read()
     ctx = execjs.compile(content)
@@ -38,8 +39,8 @@ def main():
     validateCodeObj = r.json()["validateCodeObj"]
     slideBgi = validateCodeObj['slideBgi']
     slideImage = validateCodeObj['slideImage']
-    request.urlretrieve('https://static.tongdun.net'+ slideBgi, '2.jpeg')
-    request.urlretrieve('https://static.tongdun.net'+ slideImage, '1.png')
+    request.urlretrieve('https://static.tongdun.net' + slideBgi, '2.jpeg')
+    request.urlretrieve('https://static.tongdun.net' + slideImage, '1.png')
     with open('pincuo.js', 'r', encoding='utf-8')as f:
         content = f.read()
     ctx2 = execjs.compile(content)
@@ -54,7 +55,8 @@ def main():
     }
     del sec_p_val['p1']
     del sec_p_val['p2']
-    rr = requests.post('https://sphinx.tongdun.net/sphinx/validatecode/v1', params=params2, data=sec_p_val, headers=headers)
+    rr = requests.post('https://sphinx.tongdun.net/sphinx/validatecode/v1', params=params2, data=sec_p_val,
+                       headers=headers)
     if rr.json().get("validateToken"):
         print(rr.json()["validateToken"])
     else:
