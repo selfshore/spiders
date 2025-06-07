@@ -1,3 +1,11 @@
+#  Copyright (c) 2025 Yuese. All rights reserved.
+# -*- coding: utf-8 -*-
+"""
+@Author: yuese
+@Date: 2025/6/7 20:55
+@File: example.py
+"""
+
 from curl_cffi import requests
 import execjs
 
