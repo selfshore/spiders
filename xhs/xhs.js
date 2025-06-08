@@ -237,4 +237,4 @@ function allArg(urlpath, body,old_a1,old_xt) {
 }
 
 
-console.log(allArg("/api/sec/v1/sbtsource",{"callFrom": "web"}))
+// console.log(allArg("/api/sec/v1/sbtsource",{"callFrom": "web"}))

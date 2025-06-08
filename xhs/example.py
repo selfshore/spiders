@@ -35,9 +35,10 @@ class XHS:
         self.a1 = ""
         self.x_t = ""
         self.cookies = {}
+        self.proxies = None
 
     def __getAbRequestId(self):
-        response = requests.get('https://www.xiaohongshu.com/explore', headers=self.headers)
+        response = requests.get('https://www.xiaohongshu.com/explore', headers=self.headers, proxies=self.proxies)
         self.cookies.update(response.cookies)
 
     def __getSessionId(self):
@@ -63,6 +64,7 @@ class XHS:
             cookies=self.cookies,
             headers=self.headers,
             json=json_data,
+            proxies=self.proxies
         )
         self.cookies = response.cookies
 
@@ -93,7 +95,7 @@ class XHS:
             'x-s': x_s,
         })
         response = requests.post('https://edith.xiaohongshu.com/api/sns/web/v1/homefeed', cookies=self.cookies,
-                                 headers=self.headers, json=json_data)
+                                 headers=self.headers, json=json_data,proxies=self.proxies)
         return response.text
 
     def run(self):
